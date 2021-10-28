@@ -1,0 +1,44 @@
+
+
+.option_name {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.outer_options_container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.options_container{
+    margin: auto;
+    border-style: solid;
+    border-color: #282828;
+    border-width: 0px;
+}
+
+.option {
+    display: inline-block;
+
+    background-color: #282828;
+
+    width:  49%;
+    height: 10%;
+
+    float: center;
+
+    border-style: solid;
+    border-color: #282828;
+    border-width: 3px;
+}
+
+.footer {
+   position:absolute;
+   bottom:0;
+   width:99%;
+   height:10%;
+}

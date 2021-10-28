@@ -1,0 +1,13 @@
+HTTP local server functions:
+
+HTML:
+/ (/index.html)     => Homepage
+/training.html      => Page for training the network
+/prediction.html    => Making predictions with current settnings
+/information.html   => Data about the network
+
+API:
+/api/getcolor
+/api/submitcolor
+/api/evaluate
+/api/newgeneration
