@@ -12,7 +12,6 @@ import java.net.Socket;
 import java.util.Date;
 import java.util.StringTokenizer;
 
-
 public class color {
 
     // Default files

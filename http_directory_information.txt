@@ -4,7 +4,7 @@ HTML:
 / (/index.html)     => Homepage
 /training.html      => Page for training the network
 /prediction.html    => Making predictions with current settnings
-/information.html   => Data about the network
+/information.html   => Data about the network (to be implemented)
 
 API:
 /api/getcolor
