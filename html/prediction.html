@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Prediction</title>
+
+        <link rel="stylesheet" href="/css/prediction.css">
+    </head>
+    <body>
+
+        <div class="result">
+            <h1 id="display_result">null</h1>
+        </div>
+
+        <div class="outer">
+
+            <div class="inner">
+
+                <label> R: </label>
+                <input type="text" id="R" class="numberInput" onkeyup="displayColor()">
+                <label> G: </label>
+                <input type="text" id="G" class="numberInput" onkeyup="displayColor()">
+                <label> B: </label>
+                <input type="text" id="B" class="numberInput" onkeyup="displayColor()">
+
+            </div>
+
+            <div class="buttonContainer" onclick="buttonClick()">
+                <p>SUBMIT</p>
+            </div>
+
+        </div>
+
+    </body>
+
+    <!-- Scripts -->
+    <script src="/js/prediction.js" charset="utf-8"></script>
+
+</html>

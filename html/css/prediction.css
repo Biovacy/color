@@ -1,0 +1,49 @@
+input {
+    width: 75px;
+}
+
+.outer {
+    background-color: #000000;
+    color: #ffffff;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    line-height: 30px;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+}
+
+.result {
+    background-color: #000000;
+    color: #ffffff;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.buttonContainer {
+    background-color: #ffffff;
+
+    width: 200px;
+    margin: 0 auto;
+    left: 50%;
+
+    text-align: center;
+    color: black;
+}
+
+.resultContainer {
+    color: #ffffff;
+    text-align: center;
+}
